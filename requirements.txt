@@ -26,3 +26,14 @@ mysqlclient==1.4.2
 pandas==0.24.2
 numpy==1.16.3
 sqlite==3.28.0
+ipykernel==5.1.0
+ipython==7.2.0
+jupyter==1.0.0
+jupyter_client==5.2.4
+jupyter_console==6.0.0
+jupyter_core==4.4.0
+jupyterlab==0.35.3
+jupyterlab_server==0.2.0
+
+
+
