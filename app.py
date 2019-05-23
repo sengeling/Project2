@@ -19,8 +19,8 @@ app = Flask(__name__)
 # Database Setup
 #################################################
 
-# Need to change "bigfoot" to whatever the name
-app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/bigfoot.sqlite"
+# Need to change "data" to whatever the name
+app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/data.sqlite"
 
 db = SQLAlchemy(app)
 
