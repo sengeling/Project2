@@ -27,6 +27,6 @@ jupyter_console==6.0.0
 jupyter_core==4.4.0
 jupyterlab==0.35.3
 jupyterlab_server==0.2.0
-
+lxml  
 
 
