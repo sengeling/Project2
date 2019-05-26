@@ -1,0 +1,476 @@
+"Notes"	"State"	"State Code"	"Multiple Cause of death"	"Multiple Cause of death Code"	"Gender"	"Gender Code"	Deaths	Population	Crude Rate
+	"Alabama"	"01"	"Heroin"	"T40.1"	"Female"	"F"	164	45839709	0.4
+	"Alabama"	"01"	"Heroin"	"T40.1"	"Male"	"M"	448	43051869	1.0
+	"Alabama"	"01"	"Other opioids"	"T40.2"	"Female"	"F"	507	45839709	1.1
+	"Alabama"	"01"	"Other opioids"	"T40.2"	"Male"	"M"	652	43051869	1.5
+	"Alabama"	"01"	"Methadone"	"T40.3"	"Female"	"F"	346	45839709	0.8
+	"Alabama"	"01"	"Methadone"	"T40.3"	"Male"	"M"	584	43051869	1.4
+	"Alabama"	"01"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	260	45839709	0.6
+	"Alabama"	"01"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	465	43051869	1.1
+	"Alaska"	"02"	"Heroin"	"T40.1"	"Female"	"F"	64	6283244	1.0
+	"Alaska"	"02"	"Heroin"	"T40.1"	"Male"	"M"	170	6817499	2.5
+	"Alaska"	"02"	"Other opioids"	"T40.2"	"Female"	"F"	219	6283244	3.5
+	"Alaska"	"02"	"Other opioids"	"T40.2"	"Male"	"M"	312	6817499	4.6
+	"Alaska"	"02"	"Methadone"	"T40.3"	"Female"	"F"	66	6283244	1.1
+	"Alaska"	"02"	"Methadone"	"T40.3"	"Male"	"M"	129	6817499	1.9
+	"Alaska"	"02"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	64	6283244	1.0
+	"Alaska"	"02"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	90	6817499	1.3
+	"Arizona"	"04"	"Heroin"	"T40.1"	"Female"	"F"	378	58374041	0.6
+	"Arizona"	"04"	"Heroin"	"T40.1"	"Male"	"M"	1623	57833620	2.8
+	"Arizona"	"04"	"Other opioids"	"T40.2"	"Female"	"F"	1926	58374041	3.3
+	"Arizona"	"04"	"Other opioids"	"T40.2"	"Male"	"M"	2358	57833620	4.1
+	"Arizona"	"04"	"Methadone"	"T40.3"	"Female"	"F"	468	58374041	0.8
+	"Arizona"	"04"	"Methadone"	"T40.3"	"Male"	"M"	807	57833620	1.4
+	"Arizona"	"04"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	439	58374041	0.8
+	"Arizona"	"04"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	637	57833620	1.1
+	"Arkansas"	"05"	"Heroin"	"T40.1"	"Female"	"F"	Suppressed	27589016	Suppressed
+	"Arkansas"	"05"	"Heroin"	"T40.1"	"Male"	"M"	69	26530650	0.3
+	"Arkansas"	"05"	"Other opioids"	"T40.2"	"Female"	"F"	722	27589016	2.6
+	"Arkansas"	"05"	"Other opioids"	"T40.2"	"Male"	"M"	863	26530650	3.3
+	"Arkansas"	"05"	"Methadone"	"T40.3"	"Female"	"F"	303	27589016	1.1
+	"Arkansas"	"05"	"Methadone"	"T40.3"	"Male"	"M"	493	26530650	1.9
+	"Arkansas"	"05"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	256	27589016	0.9
+	"Arkansas"	"05"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	344	26530650	1.3
+	"California"	"06"	"Heroin"	"T40.1"	"Female"	"F"	1228	350411204	0.4
+	"California"	"06"	"Heroin"	"T40.1"	"Male"	"M"	6275	346857513	1.8
+	"California"	"06"	"Other opioids"	"T40.2"	"Female"	"F"	6153	350411204	1.8
+	"California"	"06"	"Other opioids"	"T40.2"	"Male"	"M"	11177	346857513	3.2
+	"California"	"06"	"Methadone"	"T40.3"	"Female"	"F"	1859	350411204	0.5
+	"California"	"06"	"Methadone"	"T40.3"	"Male"	"M"	3040	346857513	0.9
+	"California"	"06"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1437	350411204	0.4
+	"California"	"06"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1901	346857513	0.5
+	"Colorado"	"08"	"Heroin"	"T40.1"	"Female"	"F"	304	46347131	0.7
+	"Colorado"	"08"	"Heroin"	"T40.1"	"Male"	"M"	1217	46780170	2.6
+	"Colorado"	"08"	"Other opioids"	"T40.2"	"Female"	"F"	1329	46347131	2.9
+	"Colorado"	"08"	"Other opioids"	"T40.2"	"Male"	"M"	1606	46780170	3.4
+	"Colorado"	"08"	"Methadone"	"T40.3"	"Female"	"F"	350	46347131	0.8
+	"Colorado"	"08"	"Methadone"	"T40.3"	"Male"	"M"	471	46780170	1.0
+	"Colorado"	"08"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	461	46347131	1.0
+	"Colorado"	"08"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	474	46780170	1.0
+	"Connecticut"	"09"	"Heroin"	"T40.1"	"Female"	"F"	625	34416511	1.8
+	"Connecticut"	"09"	"Heroin"	"T40.1"	"Male"	"M"	2503	32599973	7.7
+	"Connecticut"	"09"	"Other opioids"	"T40.2"	"Female"	"F"	465	34416511	1.4
+	"Connecticut"	"09"	"Other opioids"	"T40.2"	"Male"	"M"	818	32599973	2.5
+	"Connecticut"	"09"	"Methadone"	"T40.3"	"Female"	"F"	285	34416511	0.8
+	"Connecticut"	"09"	"Methadone"	"T40.3"	"Male"	"M"	521	32599973	1.6
+	"Connecticut"	"09"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	442	34416511	1.3
+	"Connecticut"	"09"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1276	32599973	3.9
+	"Delaware"	"10"	"Heroin"	"T40.1"	"Female"	"F"	106	8556281	1.2
+	"Delaware"	"10"	"Heroin"	"T40.1"	"Male"	"M"	372	8048216	4.6
+	"Delaware"	"10"	"Other opioids"	"T40.2"	"Female"	"F"	209	8556281	2.4
+	"Delaware"	"10"	"Other opioids"	"T40.2"	"Male"	"M"	312	8048216	3.9
+	"Delaware"	"10"	"Methadone"	"T40.3"	"Female"	"F"	106	8556281	1.2
+	"Delaware"	"10"	"Methadone"	"T40.3"	"Male"	"M"	150	8048216	1.9
+	"Delaware"	"10"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	162	8556281	1.9
+	"Delaware"	"10"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	303	8048216	3.8
+	"District of Columbia"	"11"	"Heroin"	"T40.1"	"Female"	"F"	129	6073634	2.1
+	"District of Columbia"	"11"	"Heroin"	"T40.1"	"Male"	"M"	382	5441995	7.0
+	"District of Columbia"	"11"	"Other opioids"	"T40.2"	"Female"	"F"	84	6073634	1.4
+	"District of Columbia"	"11"	"Other opioids"	"T40.2"	"Male"	"M"	162	5441995	3.0
+	"District of Columbia"	"11"	"Methadone"	"T40.3"	"Female"	"F"	54	6073634	0.9
+	"District of Columbia"	"11"	"Methadone"	"T40.3"	"Male"	"M"	96	5441995	1.8
+	"District of Columbia"	"11"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	102	6073634	1.7
+	"District of Columbia"	"11"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	269	5441995	4.9
+	"Florida"	"12"	"Heroin"	"T40.1"	"Female"	"F"	881	178565913	0.5
+	"Florida"	"12"	"Heroin"	"T40.1"	"Male"	"M"	3325	170689132	1.9
+	"Florida"	"12"	"Other opioids"	"T40.2"	"Female"	"F"	5146	178565913	2.9
+	"Florida"	"12"	"Other opioids"	"T40.2"	"Male"	"M"	8267	170689132	4.8
+	"Florida"	"12"	"Methadone"	"T40.3"	"Female"	"F"	1972	178565913	1.1
+	"Florida"	"12"	"Methadone"	"T40.3"	"Male"	"M"	3931	170689132	2.3
+	"Florida"	"12"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	2213	178565913	1.2
+	"Florida"	"12"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	4524	170689132	2.7
+	"Georgia"	"13"	"Heroin"	"T40.1"	"Female"	"F"	201	90675848	0.2
+	"Georgia"	"13"	"Heroin"	"T40.1"	"Male"	"M"	897	86858249	1.0
+	"Georgia"	"13"	"Other opioids"	"T40.2"	"Female"	"F"	1927	90675848	2.1
+	"Georgia"	"13"	"Other opioids"	"T40.2"	"Male"	"M"	2402	86858249	2.8
+	"Georgia"	"13"	"Methadone"	"T40.3"	"Female"	"F"	737	90675848	0.8
+	"Georgia"	"13"	"Methadone"	"T40.3"	"Male"	"M"	1280	86858249	1.5
+	"Georgia"	"13"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	759	90675848	0.8
+	"Georgia"	"13"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1191	86858249	1.4
+	"Hawaii"	"15"	"Heroin"	"T40.1"	"Female"	"F"	22	12562368	0.2
+	"Hawaii"	"15"	"Heroin"	"T40.1"	"Male"	"M"	108	12685555	0.9
+	"Hawaii"	"15"	"Other opioids"	"T40.2"	"Female"	"F"	229	12562368	1.8
+	"Hawaii"	"15"	"Other opioids"	"T40.2"	"Male"	"M"	424	12685555	3.3
+	"Hawaii"	"15"	"Methadone"	"T40.3"	"Female"	"F"	79	12562368	0.6
+	"Hawaii"	"15"	"Methadone"	"T40.3"	"Male"	"M"	168	12685555	1.3
+	"Hawaii"	"15"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	38	12562368	0.3
+	"Hawaii"	"15"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	53	12685555	0.4
+	"Idaho"	"16"	"Heroin"	"T40.1"	"Female"	"F"	15	14230315	Unreliable
+	"Idaho"	"16"	"Heroin"	"T40.1"	"Male"	"M"	113	14295510	0.8
+	"Idaho"	"16"	"Other opioids"	"T40.2"	"Female"	"F"	341	14230315	2.4
+	"Idaho"	"16"	"Other opioids"	"T40.2"	"Male"	"M"	344	14295510	2.4
+	"Idaho"	"16"	"Methadone"	"T40.3"	"Female"	"F"	134	14230315	0.9
+	"Idaho"	"16"	"Methadone"	"T40.3"	"Male"	"M"	173	14295510	1.2
+	"Idaho"	"16"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	99	14230315	0.7
+	"Idaho"	"16"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	95	14295510	0.7
+	"Illinois"	"17"	"Heroin"	"T40.1"	"Female"	"F"	1224	122902763	1.0
+	"Illinois"	"17"	"Heroin"	"T40.1"	"Male"	"M"	4332	118330286	3.7
+	"Illinois"	"17"	"Other opioids"	"T40.2"	"Female"	"F"	1322	122902763	1.1
+	"Illinois"	"17"	"Other opioids"	"T40.2"	"Male"	"M"	1869	118330286	1.6
+	"Illinois"	"17"	"Methadone"	"T40.3"	"Female"	"F"	578	122902763	0.5
+	"Illinois"	"17"	"Methadone"	"T40.3"	"Male"	"M"	1044	118330286	0.9
+	"Illinois"	"17"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1209	122902763	1.0
+	"Illinois"	"17"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	2648	118330286	2.2
+	"Indiana"	"18"	"Heroin"	"T40.1"	"Female"	"F"	376	61658978	0.6
+	"Indiana"	"18"	"Heroin"	"T40.1"	"Male"	"M"	1249	59680229	2.1
+	"Indiana"	"18"	"Other opioids"	"T40.2"	"Female"	"F"	849	61658978	1.4
+	"Indiana"	"18"	"Other opioids"	"T40.2"	"Male"	"M"	1246	59680229	2.1
+	"Indiana"	"18"	"Methadone"	"T40.3"	"Female"	"F"	263	61658978	0.4
+	"Indiana"	"18"	"Methadone"	"T40.3"	"Male"	"M"	556	59680229	0.9
+	"Indiana"	"18"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	560	61658978	0.9
+	"Indiana"	"18"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1096	59680229	1.8
+	"Iowa"	"19"	"Heroin"	"T40.1"	"Female"	"F"	73	29028157	0.3
+	"Iowa"	"19"	"Heroin"	"T40.1"	"Male"	"M"	231	28358275	0.8
+	"Iowa"	"19"	"Other opioids"	"T40.2"	"Female"	"F"	520	29028157	1.8
+	"Iowa"	"19"	"Other opioids"	"T40.2"	"Male"	"M"	573	28358275	2.0
+	"Iowa"	"19"	"Methadone"	"T40.3"	"Female"	"F"	154	29028157	0.5
+	"Iowa"	"19"	"Methadone"	"T40.3"	"Male"	"M"	224	28358275	0.8
+	"Iowa"	"19"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	215	29028157	0.7
+	"Iowa"	"19"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	297	28358275	1.0
+	"Kansas"	"20"	"Heroin"	"T40.1"	"Female"	"F"	27	26866270	0.1
+	"Kansas"	"20"	"Heroin"	"T40.1"	"Male"	"M"	144	26446647	0.5
+	"Kansas"	"20"	"Other opioids"	"T40.2"	"Female"	"F"	496	26866270	1.8
+	"Kansas"	"20"	"Other opioids"	"T40.2"	"Male"	"M"	582	26446647	2.2
+	"Kansas"	"20"	"Methadone"	"T40.3"	"Female"	"F"	188	26866270	0.7
+	"Kansas"	"20"	"Methadone"	"T40.3"	"Male"	"M"	314	26446647	1.2
+	"Kansas"	"20"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	209	26866270	0.8
+	"Kansas"	"20"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	230	26446647	0.9
+	"Kentucky"	"21"	"Heroin"	"T40.1"	"Female"	"F"	431	41195976	1.0
+	"Kentucky"	"21"	"Heroin"	"T40.1"	"Male"	"M"	1189	39764874	3.0
+	"Kentucky"	"21"	"Other opioids"	"T40.2"	"Female"	"F"	1728	41195976	4.2
+	"Kentucky"	"21"	"Other opioids"	"T40.2"	"Male"	"M"	2881	39764874	7.2
+	"Kentucky"	"21"	"Methadone"	"T40.3"	"Female"	"F"	552	41195976	1.3
+	"Kentucky"	"21"	"Methadone"	"T40.3"	"Male"	"M"	1155	39764874	2.9
+	"Kentucky"	"21"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	839	41195976	2.0
+	"Kentucky"	"21"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1532	39764874	3.9
+	"Louisiana"	"22"	"Heroin"	"T40.1"	"Female"	"F"	188	44167539	0.4
+	"Louisiana"	"22"	"Heroin"	"T40.1"	"Male"	"M"	623	42014748	1.5
+	"Louisiana"	"22"	"Other opioids"	"T40.2"	"Female"	"F"	542	44167539	1.2
+	"Louisiana"	"22"	"Other opioids"	"T40.2"	"Male"	"M"	761	42014748	1.8
+	"Louisiana"	"22"	"Methadone"	"T40.3"	"Female"	"F"	212	44167539	0.5
+	"Louisiana"	"22"	"Methadone"	"T40.3"	"Male"	"M"	513	42014748	1.2
+	"Louisiana"	"22"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	189	44167539	0.4
+	"Louisiana"	"22"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	328	42014748	0.8
+	"Maine"	"23"	"Heroin"	"T40.1"	"Female"	"F"	62	12786398	0.5
+	"Maine"	"23"	"Heroin"	"T40.1"	"Male"	"M"	220	12227577	1.8
+	"Maine"	"23"	"Other opioids"	"T40.2"	"Female"	"F"	348	12786398	2.7
+	"Maine"	"23"	"Other opioids"	"T40.2"	"Male"	"M"	627	12227577	5.1
+	"Maine"	"23"	"Methadone"	"T40.3"	"Female"	"F"	241	12786398	1.9
+	"Maine"	"23"	"Methadone"	"T40.3"	"Male"	"M"	433	12227577	3.5
+	"Maine"	"23"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	229	12786398	1.8
+	"Maine"	"23"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	601	12227577	4.9
+	"Maryland"	"24"	"Heroin"	"T40.1"	"Female"	"F"	555	55853219	1.0
+	"Maryland"	"24"	"Heroin"	"T40.1"	"Male"	"M"	2650	52311217	5.1
+	"Maryland"	"24"	"Other opioids"	"T40.2"	"Female"	"F"	1395	55853219	2.5
+	"Maryland"	"24"	"Other opioids"	"T40.2"	"Male"	"M"	2455	52311217	4.7
+	"Maryland"	"24"	"Methadone"	"T40.3"	"Female"	"F"	918	55853219	1.6
+	"Maryland"	"24"	"Methadone"	"T40.3"	"Male"	"M"	1521	52311217	2.9
+	"Maryland"	"24"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1050	55853219	1.9
+	"Maryland"	"24"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	2673	52311217	5.1
+	"Massachusetts"	"25"	"Heroin"	"T40.1"	"Female"	"F"	745	64142247	1.2
+	"Massachusetts"	"25"	"Heroin"	"T40.1"	"Male"	"M"	2539	60090955	4.2
+	"Massachusetts"	"25"	"Other opioids"	"T40.2"	"Female"	"F"	979	64142247	1.5
+	"Massachusetts"	"25"	"Other opioids"	"T40.2"	"Male"	"M"	1697	60090955	2.8
+	"Massachusetts"	"25"	"Methadone"	"T40.3"	"Female"	"F"	552	64142247	0.9
+	"Massachusetts"	"25"	"Methadone"	"T40.3"	"Male"	"M"	844	60090955	1.4
+	"Massachusetts"	"25"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1403	64142247	2.2
+	"Massachusetts"	"25"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	3930	60090955	6.5
+	"Michigan"	"26"	"Heroin"	"T40.1"	"Female"	"F"	1315	96276152	1.4
+	"Michigan"	"26"	"Heroin"	"T40.1"	"Male"	"M"	3847	92861560	4.1
+	"Michigan"	"26"	"Other opioids"	"T40.2"	"Female"	"F"	1778	96276152	1.8
+	"Michigan"	"26"	"Other opioids"	"T40.2"	"Male"	"M"	2367	92861560	2.5
+	"Michigan"	"26"	"Methadone"	"T40.3"	"Female"	"F"	816	96276152	0.8
+	"Michigan"	"26"	"Methadone"	"T40.3"	"Male"	"M"	1383	92861560	1.5
+	"Michigan"	"26"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1391	96276152	1.4
+	"Michigan"	"26"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	2566	92861560	2.8
+	"Minnesota"	"27"	"Heroin"	"T40.1"	"Female"	"F"	159	50081593	0.3
+	"Minnesota"	"27"	"Heroin"	"T40.1"	"Male"	"M"	563	49364590	1.1
+	"Minnesota"	"27"	"Other opioids"	"T40.2"	"Female"	"F"	672	50081593	1.3
+	"Minnesota"	"27"	"Other opioids"	"T40.2"	"Male"	"M"	879	49364590	1.8
+	"Minnesota"	"27"	"Methadone"	"T40.3"	"Female"	"F"	326	50081593	0.7
+	"Minnesota"	"27"	"Methadone"	"T40.3"	"Male"	"M"	573	49364590	1.2
+	"Minnesota"	"27"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	290	50081593	0.6
+	"Minnesota"	"27"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	443	49364590	0.9
+	"Mississippi"	"28"	"Heroin"	"T40.1"	"Female"	"F"	33	28683052	0.1
+	"Mississippi"	"28"	"Heroin"	"T40.1"	"Male"	"M"	140	26986042	0.5
+	"Mississippi"	"28"	"Other opioids"	"T40.2"	"Female"	"F"	350	28683052	1.2
+	"Mississippi"	"28"	"Other opioids"	"T40.2"	"Male"	"M"	447	26986042	1.7
+	"Mississippi"	"28"	"Methadone"	"T40.3"	"Female"	"F"	88	28683052	0.3
+	"Mississippi"	"28"	"Methadone"	"T40.3"	"Male"	"M"	155	26986042	0.6
+	"Mississippi"	"28"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	172	28683052	0.6
+	"Mississippi"	"28"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	221	26986042	0.8
+	"Missouri"	"29"	"Heroin"	"T40.1"	"Female"	"F"	652	57108302	1.1
+	"Missouri"	"29"	"Heroin"	"T40.1"	"Male"	"M"	2302	54647155	4.2
+	"Missouri"	"29"	"Other opioids"	"T40.2"	"Female"	"F"	1355	57108302	2.4
+	"Missouri"	"29"	"Other opioids"	"T40.2"	"Male"	"M"	1836	54647155	3.4
+	"Missouri"	"29"	"Methadone"	"T40.3"	"Female"	"F"	404	57108302	0.7
+	"Missouri"	"29"	"Methadone"	"T40.3"	"Male"	"M"	665	54647155	1.2
+	"Missouri"	"29"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	821	57108302	1.4
+	"Missouri"	"29"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1411	54647155	2.6
+	"Montana"	"30"	"Heroin"	"T40.1"	"Female"	"F"	12	9200058	Unreliable
+	"Montana"	"30"	"Heroin"	"T40.1"	"Male"	"M"	35	9243269	0.4
+	"Montana"	"30"	"Other opioids"	"T40.2"	"Female"	"F"	194	9200058	2.1
+	"Montana"	"30"	"Other opioids"	"T40.2"	"Male"	"M"	214	9243269	2.3
+	"Montana"	"30"	"Methadone"	"T40.3"	"Female"	"F"	109	9200058	1.2
+	"Montana"	"30"	"Methadone"	"T40.3"	"Male"	"M"	180	9243269	1.9
+	"Montana"	"30"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	82	9200058	0.9
+	"Montana"	"30"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	83	9243269	0.9
+	"Nebraska"	"31"	"Heroin"	"T40.1"	"Female"	"F"	Suppressed	17279896	Suppressed
+	"Nebraska"	"31"	"Heroin"	"T40.1"	"Male"	"M"	37	16996871	0.2
+	"Nebraska"	"31"	"Other opioids"	"T40.2"	"Female"	"F"	203	17279896	1.2
+	"Nebraska"	"31"	"Other opioids"	"T40.2"	"Male"	"M"	218	16996871	1.3
+	"Nebraska"	"31"	"Methadone"	"T40.3"	"Female"	"F"	67	17279896	0.4
+	"Nebraska"	"31"	"Methadone"	"T40.3"	"Male"	"M"	100	16996871	0.6
+	"Nebraska"	"31"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	89	17279896	0.5
+	"Nebraska"	"31"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	97	16996871	0.6
+	"Nevada"	"32"	"Heroin"	"T40.1"	"Female"	"F"	173	23911149	0.7
+	"Nevada"	"32"	"Heroin"	"T40.1"	"Male"	"M"	690	24424237	2.8
+	"Nevada"	"32"	"Other opioids"	"T40.2"	"Female"	"F"	1709	23911149	7.1
+	"Nevada"	"32"	"Other opioids"	"T40.2"	"Male"	"M"	1943	24424237	8.0
+	"Nevada"	"32"	"Methadone"	"T40.3"	"Female"	"F"	593	23911149	2.5
+	"Nevada"	"32"	"Methadone"	"T40.3"	"Male"	"M"	801	24424237	3.3
+	"Nevada"	"32"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	308	23911149	1.3
+	"Nevada"	"32"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	279	24424237	1.1
+	"New Hampshire"	"33"	"Heroin"	"T40.1"	"Female"	"F"	113	12520762	0.9
+	"New Hampshire"	"33"	"Heroin"	"T40.1"	"Male"	"M"	355	12196886	2.9
+	"New Hampshire"	"33"	"Other opioids"	"T40.2"	"Female"	"F"	339	12520762	2.7
+	"New Hampshire"	"33"	"Other opioids"	"T40.2"	"Male"	"M"	487	12196886	4.0
+	"New Hampshire"	"33"	"Methadone"	"T40.3"	"Female"	"F"	193	12520762	1.5
+	"New Hampshire"	"33"	"Methadone"	"T40.3"	"Male"	"M"	352	12196886	2.9
+	"New Hampshire"	"33"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	400	12520762	3.2
+	"New Hampshire"	"33"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	993	12196886	8.1
+	"New Jersey"	"34"	"Heroin"	"T40.1"	"Female"	"F"	1183	85051119	1.4
+	"New Jersey"	"34"	"Heroin"	"T40.1"	"Male"	"M"	4291	80685609	5.3
+	"New Jersey"	"34"	"Other opioids"	"T40.2"	"Female"	"F"	1029	85051119	1.2
+	"New Jersey"	"34"	"Other opioids"	"T40.2"	"Male"	"M"	2163	80685609	2.7
+	"New Jersey"	"34"	"Methadone"	"T40.3"	"Female"	"F"	386	85051119	0.5
+	"New Jersey"	"34"	"Methadone"	"T40.3"	"Male"	"M"	637	80685609	0.8
+	"New Jersey"	"34"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	743	85051119	0.9
+	"New Jersey"	"34"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	2110	80685609	2.6
+	"New Mexico"	"35"	"Heroin"	"T40.1"	"Female"	"F"	244	19069938	1.3
+	"New Mexico"	"35"	"Heroin"	"T40.1"	"Male"	"M"	1011	18609510	5.4
+	"New Mexico"	"35"	"Other opioids"	"T40.2"	"Female"	"F"	979	19069938	5.1
+	"New Mexico"	"35"	"Other opioids"	"T40.2"	"Male"	"M"	1797	18609510	9.7
+	"New Mexico"	"35"	"Methadone"	"T40.3"	"Female"	"F"	246	19069938	1.3
+	"New Mexico"	"35"	"Methadone"	"T40.3"	"Male"	"M"	429	18609510	2.3
+	"New Mexico"	"35"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	254	19069938	1.3
+	"New Mexico"	"35"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	325	18609510	1.7
+	"New York"	"36"	"Heroin"	"T40.1"	"Female"	"F"	1421	189695610	0.7
+	"New York"	"36"	"Heroin"	"T40.1"	"Male"	"M"	5901	177822187	3.3
+	"New York"	"36"	"Other opioids"	"T40.2"	"Female"	"F"	2647	189695610	1.4
+	"New York"	"36"	"Other opioids"	"T40.2"	"Male"	"M"	4824	177822187	2.7
+	"New York"	"36"	"Methadone"	"T40.3"	"Female"	"F"	1404	189695610	0.7
+	"New York"	"36"	"Methadone"	"T40.3"	"Male"	"M"	2869	177822187	1.6
+	"New York"	"36"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1717	189695610	0.9
+	"New York"	"36"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	4531	177822187	2.5
+	"North Carolina"	"37"	"Heroin"	"T40.1"	"Female"	"F"	664	89237584	0.7
+	"North Carolina"	"37"	"Heroin"	"T40.1"	"Male"	"M"	2129	84971785	2.5
+	"North Carolina"	"37"	"Other opioids"	"T40.2"	"Female"	"F"	2708	89237584	3.0
+	"North Carolina"	"37"	"Other opioids"	"T40.2"	"Male"	"M"	3515	84971785	4.1
+	"North Carolina"	"37"	"Methadone"	"T40.3"	"Female"	"F"	1315	89237584	1.5
+	"North Carolina"	"37"	"Methadone"	"T40.3"	"Male"	"M"	2355	84971785	2.8
+	"North Carolina"	"37"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1510	89237584	1.7
+	"North Carolina"	"37"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	2467	84971785	2.9
+	"North Dakota"	"38"	"Heroin"	"T40.1"	"Female"	"F"	Suppressed	6380274	Suppressed
+	"North Dakota"	"38"	"Heroin"	"T40.1"	"Male"	"M"	21	6527105	0.3
+	"North Dakota"	"38"	"Other opioids"	"T40.2"	"Female"	"F"	67	6380274	1.1
+	"North Dakota"	"38"	"Other opioids"	"T40.2"	"Male"	"M"	79	6527105	1.2
+	"North Dakota"	"38"	"Methadone"	"T40.3"	"Female"	"F"	14	6380274	Unreliable
+	"North Dakota"	"38"	"Methadone"	"T40.3"	"Male"	"M"	19	6527105	Unreliable
+	"North Dakota"	"38"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	43	6380274	0.7
+	"North Dakota"	"38"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	53	6527105	0.8
+	"Ohio"	"39"	"Heroin"	"T40.1"	"Female"	"F"	2319	111918437	2.1
+	"Ohio"	"39"	"Heroin"	"T40.1"	"Male"	"M"	6717	106618833	6.3
+	"Ohio"	"39"	"Other opioids"	"T40.2"	"Female"	"F"	2887	111918437	2.6
+	"Ohio"	"39"	"Other opioids"	"T40.2"	"Male"	"M"	4391	106618833	4.1
+	"Ohio"	"39"	"Methadone"	"T40.3"	"Female"	"F"	820	111918437	0.7
+	"Ohio"	"39"	"Methadone"	"T40.3"	"Male"	"M"	1355	106618833	1.3
+	"Ohio"	"39"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	3025	111918437	2.7
+	"Ohio"	"39"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	6089	106618833	5.7
+	"Oklahoma"	"40"	"Heroin"	"T40.1"	"Female"	"F"	54	35351697	0.2
+	"Oklahoma"	"40"	"Heroin"	"T40.1"	"Male"	"M"	268	34538054	0.8
+	"Oklahoma"	"40"	"Other opioids"	"T40.2"	"Female"	"F"	2044	35351697	5.8
+	"Oklahoma"	"40"	"Other opioids"	"T40.2"	"Male"	"M"	2392	34538054	6.9
+	"Oklahoma"	"40"	"Methadone"	"T40.3"	"Female"	"F"	565	35351697	1.6
+	"Oklahoma"	"40"	"Methadone"	"T40.3"	"Male"	"M"	993	34538054	2.9
+	"Oklahoma"	"40"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	672	35351697	1.9
+	"Oklahoma"	"40"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	658	34538054	1.9
+	"Oregon"	"41"	"Heroin"	"T40.1"	"Female"	"F"	341	35970722	0.9
+	"Oregon"	"41"	"Heroin"	"T40.1"	"Male"	"M"	1243	35294476	3.5
+	"Oregon"	"41"	"Other opioids"	"T40.2"	"Female"	"F"	946	35970722	2.6
+	"Oregon"	"41"	"Other opioids"	"T40.2"	"Male"	"M"	955	35294476	2.7
+	"Oregon"	"41"	"Methadone"	"T40.3"	"Female"	"F"	685	35970722	1.9
+	"Oregon"	"41"	"Methadone"	"T40.3"	"Male"	"M"	885	35294476	2.5
+	"Oregon"	"41"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	224	35970722	0.6
+	"Oregon"	"41"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	267	35294476	0.8
+	"Pennsylvania"	"42"	"Heroin"	"T40.1"	"Female"	"F"	1293	122676018	1.1
+	"Pennsylvania"	"42"	"Heroin"	"T40.1"	"Male"	"M"	4251	116250179	3.7
+	"Pennsylvania"	"42"	"Other opioids"	"T40.2"	"Female"	"F"	1738	122676018	1.4
+	"Pennsylvania"	"42"	"Other opioids"	"T40.2"	"Male"	"M"	3436	116250179	3.0
+	"Pennsylvania"	"42"	"Methadone"	"T40.3"	"Female"	"F"	509	122676018	0.4
+	"Pennsylvania"	"42"	"Methadone"	"T40.3"	"Male"	"M"	1002	116250179	0.9
+	"Pennsylvania"	"42"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1539	122676018	1.3
+	"Pennsylvania"	"42"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	3546	116250179	3.1
+	"Rhode Island"	"44"	"Heroin"	"T40.1"	"Female"	"F"	48	10386912	0.5
+	"Rhode Island"	"44"	"Heroin"	"T40.1"	"Male"	"M"	252	9701051	2.6
+	"Rhode Island"	"44"	"Other opioids"	"T40.2"	"Female"	"F"	286	10386912	2.8
+	"Rhode Island"	"44"	"Other opioids"	"T40.2"	"Male"	"M"	499	9701051	5.1
+	"Rhode Island"	"44"	"Methadone"	"T40.3"	"Female"	"F"	158	10386912	1.5
+	"Rhode Island"	"44"	"Methadone"	"T40.3"	"Male"	"M"	299	9701051	3.1
+	"Rhode Island"	"44"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	222	10386912	2.1
+	"Rhode Island"	"44"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	515	9701051	5.3
+	"South Carolina"	"45"	"Heroin"	"T40.1"	"Female"	"F"	139	43795090	0.3
+	"South Carolina"	"45"	"Heroin"	"T40.1"	"Male"	"M"	443	41433859	1.1
+	"South Carolina"	"45"	"Other opioids"	"T40.2"	"Female"	"F"	1175	43795090	2.7
+	"South Carolina"	"45"	"Other opioids"	"T40.2"	"Male"	"M"	1503	41433859	3.6
+	"South Carolina"	"45"	"Methadone"	"T40.3"	"Female"	"F"	326	43795090	0.7
+	"South Carolina"	"45"	"Methadone"	"T40.3"	"Male"	"M"	546	41433859	1.3
+	"South Carolina"	"45"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	598	43795090	1.4
+	"South Carolina"	"45"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	821	41433859	2.0
+	"South Dakota"	"46"	"Heroin"	"T40.1"	"Female"	"F"	Suppressed	7637970	Suppressed
+	"South Dakota"	"46"	"Heroin"	"T40.1"	"Male"	"M"	18	7639000	Unreliable
+	"South Dakota"	"46"	"Other opioids"	"T40.2"	"Female"	"F"	121	7637970	1.6
+	"South Dakota"	"46"	"Other opioids"	"T40.2"	"Male"	"M"	135	7639000	1.8
+	"South Dakota"	"46"	"Methadone"	"T40.3"	"Female"	"F"	31	7637970	0.4
+	"South Dakota"	"46"	"Methadone"	"T40.3"	"Male"	"M"	35	7639000	0.5
+	"South Dakota"	"46"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	56	7637970	0.7
+	"South Dakota"	"46"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	71	7639000	0.9
+	"Tennessee"	"47"	"Heroin"	"T40.1"	"Female"	"F"	307	60312834	0.5
+	"Tennessee"	"47"	"Heroin"	"T40.1"	"Male"	"M"	859	57347971	1.5
+	"Tennessee"	"47"	"Other opioids"	"T40.2"	"Female"	"F"	2777	60312834	4.6
+	"Tennessee"	"47"	"Other opioids"	"T40.2"	"Male"	"M"	3458	57347971	6.0
+	"Tennessee"	"47"	"Methadone"	"T40.3"	"Female"	"F"	661	60312834	1.1
+	"Tennessee"	"47"	"Methadone"	"T40.3"	"Male"	"M"	1009	57347971	1.8
+	"Tennessee"	"47"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	970	60312834	1.6
+	"Tennessee"	"47"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1312	57347971	2.3
+	"Texas"	"48"	"Heroin"	"T40.1"	"Female"	"F"	1024	232579693	0.4
+	"Texas"	"48"	"Heroin"	"T40.1"	"Male"	"M"	4535	229266636	2.0
+	"Texas"	"48"	"Other opioids"	"T40.2"	"Female"	"F"	3511	232579693	1.5
+	"Texas"	"48"	"Other opioids"	"T40.2"	"Male"	"M"	4425	229266636	1.9
+	"Texas"	"48"	"Methadone"	"T40.3"	"Female"	"F"	999	232579693	0.4
+	"Texas"	"48"	"Methadone"	"T40.3"	"Male"	"M"	1739	229266636	0.8
+	"Texas"	"48"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1247	232579693	0.5
+	"Texas"	"48"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1223	229266636	0.5
+	"Utah"	"49"	"Heroin"	"T40.1"	"Female"	"F"	268	24987540	1.1
+	"Utah"	"49"	"Heroin"	"T40.1"	"Male"	"M"	1098	25215917	4.4
+	"Utah"	"49"	"Other opioids"	"T40.2"	"Female"	"F"	1801	24987540	7.2
+	"Utah"	"49"	"Other opioids"	"T40.2"	"Male"	"M"	2542	25215917	10.1
+	"Utah"	"49"	"Methadone"	"T40.3"	"Female"	"F"	470	24987540	1.9
+	"Utah"	"49"	"Methadone"	"T40.3"	"Male"	"M"	758	25215917	3.0
+	"Utah"	"49"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	408	24987540	1.6
+	"Utah"	"49"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	375	25215917	1.5
+	"Vermont"	"50"	"Heroin"	"T40.1"	"Female"	"F"	50	5991561	0.8
+	"Vermont"	"50"	"Heroin"	"T40.1"	"Male"	"M"	191	5809616	3.3
+	"Vermont"	"50"	"Other opioids"	"T40.2"	"Female"	"F"	176	5991561	2.9
+	"Vermont"	"50"	"Other opioids"	"T40.2"	"Male"	"M"	279	5809616	4.8
+	"Vermont"	"50"	"Methadone"	"T40.3"	"Female"	"F"	67	5991561	1.1
+	"Vermont"	"50"	"Methadone"	"T40.3"	"Male"	"M"	144	5809616	2.5
+	"Vermont"	"50"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	102	5991561	1.7
+	"Vermont"	"50"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	216	5809616	3.7
+	"Virginia"	"51"	"Heroin"	"T40.1"	"Female"	"F"	685	75500024	0.9
+	"Virginia"	"51"	"Heroin"	"T40.1"	"Male"	"M"	2284	72802725	3.1
+	"Virginia"	"51"	"Other opioids"	"T40.2"	"Female"	"F"	1758	75500024	2.3
+	"Virginia"	"51"	"Other opioids"	"T40.2"	"Male"	"M"	2391	72802725	3.3
+	"Virginia"	"51"	"Methadone"	"T40.3"	"Female"	"F"	686	75500024	0.9
+	"Virginia"	"51"	"Methadone"	"T40.3"	"Male"	"M"	1198	72802725	1.6
+	"Virginia"	"51"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	1065	75500024	1.4
+	"Virginia"	"51"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1811	72802725	2.5
+	"Washington"	"53"	"Heroin"	"T40.1"	"Female"	"F"	557	62543276	0.9
+	"Washington"	"53"	"Heroin"	"T40.1"	"Male"	"M"	1880	62182162	3.0
+	"Washington"	"53"	"Other opioids"	"T40.2"	"Female"	"F"	2180	62543276	3.5
+	"Washington"	"53"	"Other opioids"	"T40.2"	"Male"	"M"	2352	62182162	3.8
+	"Washington"	"53"	"Methadone"	"T40.3"	"Female"	"F"	1443	62543276	2.3
+	"Washington"	"53"	"Methadone"	"T40.3"	"Male"	"M"	2013	62182162	3.2
+	"Washington"	"53"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	532	62543276	0.9
+	"Washington"	"53"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	528	62182162	0.8
+	"West Virginia"	"54"	"Heroin"	"T40.1"	"Female"	"F"	324	17694954	1.8
+	"West Virginia"	"54"	"Heroin"	"T40.1"	"Male"	"M"	903	17090846	5.3
+	"West Virginia"	"54"	"Other opioids"	"T40.2"	"Female"	"F"	1497	17694954	8.5
+	"West Virginia"	"54"	"Other opioids"	"T40.2"	"Male"	"M"	2420	17090846	14.2
+	"West Virginia"	"54"	"Methadone"	"T40.3"	"Female"	"F"	370	17694954	2.1
+	"West Virginia"	"54"	"Methadone"	"T40.3"	"Male"	"M"	690	17090846	4.0
+	"West Virginia"	"54"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	774	17694954	4.4
+	"West Virginia"	"54"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1514	17090846	8.9
+	"Wisconsin"	"55"	"Heroin"	"T40.1"	"Female"	"F"	543	53720533	1.0
+	"Wisconsin"	"55"	"Heroin"	"T40.1"	"Male"	"M"	1840	52836846	3.5
+	"Wisconsin"	"55"	"Other opioids"	"T40.2"	"Female"	"F"	1473	53720533	2.7
+	"Wisconsin"	"55"	"Other opioids"	"T40.2"	"Male"	"M"	1969	52836846	3.7
+	"Wisconsin"	"55"	"Methadone"	"T40.3"	"Female"	"F"	482	53720533	0.9
+	"Wisconsin"	"55"	"Methadone"	"T40.3"	"Male"	"M"	838	52836846	1.6
+	"Wisconsin"	"55"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	644	53720533	1.2
+	"Wisconsin"	"55"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	1041	52836846	2.0
+	"Wyoming"	"56"	"Heroin"	"T40.1"	"Female"	"F"	Suppressed	5065417	Suppressed
+	"Wyoming"	"56"	"Heroin"	"T40.1"	"Male"	"M"	41	5230902	0.8
+	"Wyoming"	"56"	"Other opioids"	"T40.2"	"Female"	"F"	153	5065417	3.0
+	"Wyoming"	"56"	"Other opioids"	"T40.2"	"Male"	"M"	159	5230902	3.0
+	"Wyoming"	"56"	"Methadone"	"T40.3"	"Female"	"F"	29	5065417	0.6
+	"Wyoming"	"56"	"Methadone"	"T40.3"	"Male"	"M"	43	5230902	0.8
+	"Wyoming"	"56"	"Other synthetic narcotics"	"T40.4"	"Female"	"F"	39	5065417	0.8
+	"Wyoming"	"56"	"Other synthetic narcotics"	"T40.4"	"Male"	"M"	56	5230902	1.1
+"---"
+"Dataset: Multiple Cause of Death, 1999-2017"
+"Query Parameters:"
+"MCD - ICD-10 Codes: T40.1 (Heroin); T40.2 (Other opioids); T40.3 (Methadone); T40.4 (Other synthetic narcotics)"
+"UCD - Drug/Alcohol Induced Causes: Drug poisonings (overdose) Unintentional (X40-X44); Drug poisonings (overdose) Suicide"
+"(X60-X64); Drug poisonings (overdose) Homicide (X85); Drug poisonings (overdose) Undetermined (Y10-Y14)"
+"Group By: State; Multiple Cause of death; Gender"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/mcd.html for more information."
+"---"
+"Query Date: May 23, 2019 10:04:44 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Multiple Cause of Death"
+"1999-2017 on CDC WONDER Online Database, released December, 2018. Data are from the Multiple Cause of Death Files, 1999-2017, as"
+"compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed"
+"at http://wonder.cdc.gov/mcd-icd10.html on May 23, 2019 10:04:44 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Footnotes:
+"1. Totals and sub-totals show the frequency of the selected causes of death, which may be greater than the number of deaths."
+"Note that any single death record may have up to 20 causes. More information."
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#2014-Revision."
+"2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of"
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data."
+"More information: http://wonder.cdc.gov/wonder/help/mcd.html#Georgia-Reporting-Anomalies."
+"3. Circumstances in New Jersey for the year 2009 have resulted in unusually high death counts for the ICD-10 cause of death code"
+"R99, ""Other ill-defined and unspecified causes of mortality"" and therefore unusually low death counts in other ICD-10 codes,"
+"most notably R95, ""Sudden Infant Death Syndrome"" and X40-X49, ""Unintentional poisoning."" Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/mcd.html#New-Jersey-Reporting-Anomalies."
+"4. Circumstances in California resulted in unusually high death counts for the ICD-10 cause of death code R99, ""Other"
+"ill-defined and unspecified causes of mortality"" for deaths occurring in years 2000 and 2001. Caution should be used in"
+"interpreting these data. More information: http://wonder.cdc.gov/wonder/help/mcd.html#California-Reporting-Anomalies."
+"5. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Assurance of Confidentiality."
+"6. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#Unreliable."
+"7. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017"
+"postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for"
+"year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS"
+"on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26, 2014. The"
+"population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012 postcensal"
+"series released by NCHS on June 13, 2013. Population figures for 2011 are bridged-race estimates of the July 1 resident"
+"population, from the county-level postcensal Vintage 2011 series released by NCHS on July 18, 2012. Population figures for 2010"
+"are April 1 Census counts. The population figures for years 2001 - 2009, are bridged-race estimates of the July 1 resident"
+"population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population"
+"figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1"
+"estimates. Population figures for Infant Age Groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"8. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/mcd.html#Age Group."
+"9. Changes to cause of death classification affect reporting trends. More information:"
+"http://wonder.cdc.gov/wonder/help/mcd.html#ICD-10 Changes."
