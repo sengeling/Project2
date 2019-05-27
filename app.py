@@ -17,28 +17,28 @@ from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine
 
-#################################################
-# Flask Setup
-#################################################
-app = Flask(__name__)
 
 #################################################
 # Database Setup
 #################################################
-
-# Need to change "data" to whatever the name
-#app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///db/data.sqlite"
-#db = SQLAlchemy(app)
+engine = create_engine("sqlite:///data/states_each_year.sqlite")
 
 # reflect an existing database into a new model
-#Base = automap_base()
-## reflect the tables
-#Base.prepare(db.engine, reflect=True)
+Base = automap_base()
+# reflect the tables
+Base.prepare(engine, reflect=True)
 
-# Save references to each table
-#Samples_Metadata = Base.classes.sample_metadata
-#Samples = Base.classes.samples
+# Save reference to the table
+States_each_year = Base.classes.states_each_year
 
+# Create our session (link) from Python to the DB
+session = Session(engine)
+
+
+#################################################
+# Flask Setup
+#################################################
+app = Flask(__name__)
 
 
 @app.route("/")
@@ -62,17 +62,17 @@ def index():
 #    return render_template("form.html")
 
 
-#@app.route("/api/data")
-#def list_pets():
-#    results = db.session.query(Pet.nickname, Pet.age).all()
+@app.route("/api/states")
+def list_data():
+    results = session.query(States_each_year.state, States_each_year.year).all()
 
-#    pets = []
-#    for result in results:
-#        pets.append({
-#            "nickname": result[0],
-#            "age": result[1]
-#        })
-#    return jsonify(pets)
+    states = []
+    for result in results:
+        states.append({
+            "state": result[0],
+            "year": result[1]
+        })
+    return jsonify(states)
 
 if __name__ == "__main__":
     app.run(debug=True)
