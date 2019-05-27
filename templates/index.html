@@ -17,16 +17,44 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="css/leaflet.extra-markers.min.css">
 
-    <!-- Our CSS -->
-    <link rel="stylesheet" type="text/css" href="static/css/style.css">
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo|Barlow+Condensed|Crimson+Text&display=swap" rel="stylesheet">
+
+    <!-- The favicons because we have them now-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
+    <link rel="manifest" href="../static/img/site.webmanifest">
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
 
 </head>
 
 <header>
   <!-- Navigation -->
+
+  <nav id="navbar-style" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div id="brand-border">
+      <a id="brand-logo" class="navbar-brand" href="/">A</a>
+    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Findings</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
   <!-- end Navigation -->
 </header>
@@ -34,8 +62,34 @@
 <body>
 
   <!-- .container -->
-    <div class="container">
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+            <img id="group" src="../static/img/comicGroupFlat.jpg" width="576" height="560" alt="Stock photo for design purposes.">
+            <div id="front-right">
+                <div class="title-borders"><h1 id="case-study">Case Study</h1></div>
+                <div id="p1">
+                  <p>Lorem ipsum dolor amet hot chicken umami kogi put a bird on it, man braid neutra wolf drinking. Vinegar freegan brooklyn four dollar toast.</p>
+                </div>
+                <div id="p2">
+                  <p>Try-hard copper mug ethical, leggings brunch green juice vegan distillery semiotics.</p>
+                </div>
+                <div id="explore-button">
+                  <button class="btn btn-primary" type="button">EXPLORE</button>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <div id="office-wrapper">
+                <img src="../static/img/stockOfficeFlat.jpg">
+            </div>
+        </div>
+      </div>
     </div>
+
   <!-- end .container -->
 
 

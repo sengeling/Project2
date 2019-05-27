@@ -1,1 +1,244 @@
 /* Main Page CSS Styles */
+
+
+@media (max-width: 12450px) { 
+
+/*Wow all this is navigation at this screen size*/
+    #navbar-style {
+
+        margin-top: 30px;
+        background: rgba(138, 125, 118, 0.5);
+        color: black;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 160px;
+    
+    }
+    
+    .navbar-toggler {
+    
+        margin-right: 15px;
+    }
+    
+    #brand-logo {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 56px;
+        color: #e73712;
+        margin-top: -18px;
+        margin-left: 7px;
+    }
+    
+    #brand-border {
+    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        border-style: solid;
+        border-color: #e73712;
+        border-width: 6px;
+        height: 75px;
+        width: 50px; 
+    }
+    
+    .navbar-nav {
+    
+        list-style: none;
+    
+    }
+    
+    .nav-item {
+    
+        display: inline;
+        padding-right: 10px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 24px;
+    
+    }
+    
+    .nav-link {
+    
+        color: black;
+    }
+    
+    a:link {
+    
+        color: black;
+    }
+
+    /* Container Element Styles */
+    #group {
+
+        position: relative;
+        width: 50%;
+        height: auto;
+        float: left;
+        margin-top: 95px;
+        margin-left: -15px;
+        opacity: 0.50;
+
+    }
+
+    #front-right {
+        width: 50%;
+        height: auto;
+        position: relative;
+        float: right;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 230px;
+
+    }
+
+    #case-study {
+
+        font-family: "Arimo", sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 56px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+
+    }
+
+    .title-borders {
+
+        border-style: solid;
+        border-color: #e73712;
+        border-width: 8px;
+        width: 350px;
+        margin: auto;
+
+    }
+
+    #p1 {
+
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-family: "Crimson Text", serif;
+        font-size: 24px;
+        text-align-last: center;
+        padding-left: 40px;
+        
+
+    }
+
+    #p2 {
+
+        width: 550px;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Arimo", sans-serif;
+        font-weight: bold;
+        font-size: 18px;
+        text-align-last: center;
+        padding-left: 40px;
+
+    }
+
+    #explore-button {
+        width: 150px;
+        height: 55px;
+        margin-top: 20px;
+        margin: auto;
+    }
+
+    .btn.btn-primary {
+
+        background: #e73712;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 32px;
+        color: white;
+        border-color: #e73712;
+        width: 150px;
+        height: 55px;
+
+    }
+
+    #office-wrapper {
+        opacity: 0.50;
+        
+    }
+
+ }
+
+ @media (max-width: 414px) {
+
+/* And this is just navigation at the small size */
+
+    #navbar-style {
+
+        background: rgba(138, 125, 118, 0.5);
+        color: black;
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 15px;
+    
+    }
+    
+    .navbar-toggler {
+    
+        margin-right: 15px;
+    }
+    
+    #brand-logo {
+    
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 56px;
+        color: #e73712;
+        margin-top: -18px;
+        margin-left: 7px;
+    }
+    
+    #brand-border {
+    
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 15px;
+        border-style: solid;
+        border-color: #e73712;
+        border-width: 6px;
+        height: 75px;
+        width: 50px; 
+    }
+    
+    .navbar-nav {
+    
+        list-style: none;
+    
+    }
+    
+    .nav-item {
+    
+        display: inline;
+        padding-right: 10px;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 24px;
+    
+    }
+    
+    .nav-link {
+    
+        color: black;
+    }
+    
+    a:link {
+    
+        color: black;
+    }
+
+    /* Container Styles */
+
+    
+ }
+
+
+
