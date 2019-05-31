@@ -21,7 +21,7 @@ from sqlalchemy import create_engine
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///data/TestDB.sqlite", connect_args={'check_same_thread': False})
+engine = create_engine("sqlite:///data/overdose_deaths.sqlite", connect_args={'check_same_thread': False})
 
 # reflect an existing database into a new model
 Base = automap_base()
@@ -31,6 +31,7 @@ Base.prepare(engine, reflect=True)
 # Save reference to the table
 States_each_year = Base.classes.states_each_year
 Counties_all_years = Base.classes.counties_all_years
+States_prescribing_rate = Base.classes.states_prescribing_rate
 
 # Create our session (link) from Python to the DB
 session = Session(engine)
@@ -40,6 +41,12 @@ session = Session(engine)
 # Flask Setup
 #################################################
 app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    """Render Home Page."""
+    return render_template("index.html")
 
 
 @app.route("/api/states")
@@ -110,7 +117,8 @@ def list_counties_data():
         Counties_all_years.prescribing_rate_2014,
         Counties_all_years.prescribing_rate_2015,
         Counties_all_years.prescribing_rate_2016,
-        Counties_all_years.prescribing_rate_2017
+        Counties_all_years.prescribing_rate_2017,
+        Counties_all_years.mean_prescribing_rate
     ).all()
 
     counties = []
@@ -140,10 +148,30 @@ def list_counties_data():
             "prescribing_rate_2014": result[21],
             "prescribing_rate_2015": result[22],
             "prescribing_rate_2016": result[23],
-            "prescribing_rate_2017": result[24]
+            "prescribing_rate_2017": result[24],
+            "mean_prescribing_rate": result[25]
         })
 
     return jsonify(counties)
+
+
+@app.route("/api/prescribing")
+def list_prescribing_data():
+    results = session.query(
+        States_prescribing_rate.id,
+        States_prescribing_rate.state,
+        States_prescribing_rate.mean_prescribing_rate
+    ).all()
+
+    prescribing = []
+    for result in results:
+        prescribing.append({
+            "id": result[0],
+            "state": result[1],
+            "mean_prescribing_rate": result[2]
+        })
+
+    return jsonify(prescribing)
 
 
 if __name__ == "__main__":
