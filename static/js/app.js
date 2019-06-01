@@ -252,7 +252,7 @@ async function updateScatterPlots (value) {
     lrSynth = linearRegression(syntheticY, syntheticX);
     lrSynthTrace = bestFitTrace(lrSynth, syntheticX, "x4", "y4");
 
-    let scatterData = [heroTrace, opioidTrace, methTrace, synthTace, lrHeroinTrace, lrOpioidTrace, lrMethTrace, lrSynthTrace];
+    let scatterData = [heroinTrace, opioidTrace, methadoneTrace, syntheticTrace, lrHeroinTrace, lrOpioidTrace, lrMethTrace, lrSynthTrace];
 
 	//let scatterData = [heroinTrace, opioidTrace, methadoneTrace, syntheticTrace];
 
