@@ -15,7 +15,7 @@
 
     <!-- Icons -->
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="css/leaflet.extra-markers.min.css">
+    <!-- <link rel="stylesheet" href="css/leaflet.extra-markers.min.css"> -->
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo|Barlow+Condensed|Crimson+Text&display=swap" rel="stylesheet">
@@ -112,8 +112,7 @@
                   <h4>Select a state from the map or choose from the menu here: </h4>
                   <form>
                     <div class="form-group">
-                      <select class="form-control" id="state-form">
-                        <option class="option-color">...</option>
+                      <select class="form-control" id="state-form" onchange="menuChanged(this.value)">
                       </select>
                     </div>
                   </form>
@@ -135,6 +134,13 @@
    
     -->
 
+    <div class="row">
+          <div class="col-12">
+            <div id="time-series">
+            </div>
+          </div>
+      </div>
+
       <div class="row">
             <div class="col-6">
                 <div class="holder">
@@ -148,16 +154,6 @@
                   </div>
             </div>
 
-      </div>
-
-      <div class="row">
-          <div class="col-12">
-            <div id="time-series">
-                <div class="placeholders">
-                  <p class="placeholder-text">Time-Series Placeholder</p>
-                </div>
-            </div>
-          </div>
       </div>
 
              
