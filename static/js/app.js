@@ -29,16 +29,11 @@ function populateDropdown (stateNames) {
 
 
 
-
-
-
 // Event handler for when dropdown menu changes
 function menuChanged (value) {
 	updateTimePlot(value);
+	updateScatterPlots(value);
 }
-
-
-
 
 
 
@@ -137,4 +132,103 @@ async function updateTimePlot (value) {
 	};
 
 	Plotly.newPlot('time-series', plotData, layout);
+}
+
+
+
+
+
+
+// Function to do update scatterplots
+// Value is the name of the state
+async function updateScatterPlots (value) {
+	const data = await d3.json("/api/"+value);
+
+	const heroinF = data.filter(d => d.heroin_death_rate > 0);
+	const heroinX = heroinF.map(d => d.mean_prescribing_rate);
+	const heroinY = heroinF.map(d => d.heroin_death_rate);
+
+	const opioidF = data.filter(d => d.other_opioids_death_rate > 0);
+	const opioidX = opioidF.map(d => d.mean_prescribing_rate);
+	const opioidY = opioidF.map(d => d.other_opioids_death_rate);
+
+	const methadoneF = data.filter(d => d.methadone_death_rate > 0);
+	const methadoneX = methadoneF.map(d => d.mean_prescribing_rate);
+	const methadoneY = methadoneF.map(d => d.methadone_death_rate);
+
+	const syntheticF = data.filter(d => d.other_synthetics_death_rate > 0);
+	const syntheticX = syntheticF.map(d => d.mean_prescribing_rate);
+	const syntheticY = syntheticF.map(d => d.other_synthetics_death_rate);
+
+	let heroinTrace = {
+		x: heroinX,
+		y: heroinY,
+		type: 'scatter',
+		mode: 'markers',
+		hoverinfo: 'x+y'
+	};
+
+	let opioidTrace = {
+		x: opioidX,
+		y: opioidY,
+		xaxis: 'x2',
+		yaxis: 'y2',
+		type: 'scatter',
+		mode: 'markers',
+		hoverinfo: 'x+y'
+	};
+
+	let methadoneTrace = {
+		x: methadoneX,
+		y: methadoneY,
+		xaxis: 'x3',
+		yaxis: 'y3',
+		type: 'scatter',
+		mode: 'markers',
+		hoverinfo: 'x+y'
+	};
+
+	let syntheticTrace = {
+		x: syntheticX,
+		y: syntheticY,
+		xaxis: 'x4',
+		yaxis: 'y4',
+		type: 'scatter',
+		mode: 'markers',
+		hoverinfo: 'x+y'
+	};
+
+	let scatterData = [heroinTrace, opioidTrace, methadoneTrace, syntheticTrace];
+
+	let layout = {
+		grid: {rows: 2, columns: 2, pattern: 'independent'},
+		title: "Prescription Rates (X Axis) vs. Death Rates (Y Axis)",
+		showlegend: false,
+		xaxis4: {
+			tick0: 10,
+			dtick: 20
+		},
+		yaxis: {
+			dtick: 1,
+			title: 'Heroin'
+		},
+		yaxis2: {
+			dtick: 1,
+			title: 'Opioids'
+		},
+		yaxis3: {
+			rangemode: 'tozero',
+			tick0: 0,
+			dtick: 0.5,
+			title: 'Methadone'
+		},
+		yaxis4: {
+			rangemode: 'tozero',
+			tick0: 0,
+			dtick: 0.5,
+			title: 'Synthetic'
+		}
+	};
+
+	Plotly.newPlot('scatterplots', scatterData, layout);
 }
