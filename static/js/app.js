@@ -132,7 +132,7 @@ async function updateTimePlot (value) {
 		showlegend: true,
 		legend: {
 			x: 1.05,
-			y: 0.5
+			y: -1
 		}
 	};
 
