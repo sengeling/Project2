@@ -136,8 +136,50 @@ async function updateTimePlot (value) {
 
 
 
+// Function to calculate linear regression
+function linearRegression(y, x) {
+    var lr = {};
+    var n = y.length;
+    var sum_x = 0;
+    var sum_y = 0;
+    var sum_xy = 0;
+    var sum_xx = 0;
+    var sum_yy = 0;
 
+    for (var i = 0; i < y.length; i++) {
 
+        sum_x += x[i];
+        sum_y += y[i];
+        sum_xy += (x[i] * y[i]);
+        sum_xx += (x[i] * x[i]);
+        sum_yy += (y[i] * y[i]);
+    }
+
+    lr['slope'] = (n * sum_xy - sum_x * sum_y) / (n * sum_xx - sum_x * sum_x);
+    lr['intercept'] = (sum_y - lr.slope * sum_x) / n;
+    lr['r2'] = Math.pow((n * sum_xy - sum_x * sum_y) / Math.sqrt((n * sum_xx - sum_x * sum_x) * (n * sum_yy - sum_y * sum_y)), 2);
+
+    return lr;
+}
+
+// Function to create trace of linear regression
+function bestFitTrace(lr, x, xaxis, yaxis) {
+    xMin = Math.min(...x);
+    xMax = Math.max(...x);
+    m = lr['slope'];
+    b = lr['intercept'];
+    newX = [xMin, xMax];
+    newY = [m * xMin + b, m * xMax + b];
+    return {
+        x: newX,
+        y: newY,
+        type: 'scatter',
+        mode: 'lines',
+        hoverinfo: 'x+y',
+        xaxis: xaxis,
+        yaxis: yaxis
+    };
+}
 
 // Function to do update scatterplots
 // Value is the name of the state
@@ -198,7 +240,21 @@ async function updateScatterPlots (value) {
 		hoverinfo: 'x+y'
 	};
 
-	let scatterData = [heroinTrace, opioidTrace, methadoneTrace, syntheticTrace];
+    lrHeroin = linearRegression(heroinY, heroinX);
+    lrHeroinTrace = bestFitTrace(lrHeroin, heroinX, "x", "y");
+
+    lrOpioid = linearRegression(opioidY, opioidX);
+    lrOpioidTrace = bestFitTrace(lrOpioid, opioidX, "x2", "y2");
+
+    lrMeth = linearRegression(methadoneY, methadoneX);
+    lrMethTrace = bestFitTrace(lrMeth, methadoneX, "x3", "y3");
+
+    lrSynth = linearRegression(syntheticY, syntheticX);
+    lrSynthTrace = bestFitTrace(lrSynth, syntheticX, "x4", "y4");
+
+    let scatterData = [heroTrace, opioidTrace, methTrace, synthTace, lrHeroinTrace, lrOpioidTrace, lrMethTrace, lrSynthTrace];
+
+	//let scatterData = [heroinTrace, opioidTrace, methadoneTrace, syntheticTrace];
 
 	let layout = {
 		grid: {rows: 2, columns: 2, pattern: 'independent'},
