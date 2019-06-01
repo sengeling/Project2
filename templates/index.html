@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Drug Death Rates</title>
+    
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- Leaflet CSS -->
+    <!-- Leaflet CSS-->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
     crossorigin=""/>
-
-    <!-- Icons -->
+    
+     <!-- Icons-->
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- <link rel="stylesheet" href="css/leaflet.extra-markers.min.css"> -->
+
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Arimo|Barlow+Condensed|Crimson+Text&display=swap" rel="stylesheet">
@@ -28,6 +30,7 @@
 
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    
 
 </head>
 
@@ -71,13 +74,13 @@
             <div id="front-right">
                 <div class="title-borders"><h1 id="case-study">Case Study</h1></div>
                 <div id="p1">
-                  <p>Lorem ipsum dolor amet hot chicken umami kogi put a bird on it, man braid neutra wolf drinking. Vinegar freegan brooklyn four dollar toast.</p>
+                  <p>In 2017, the US Department of Health and Human Services declared the prescription of opioids to be a public health emergency. In addition to the rate of prescription of medical opioids, the use of heroin is also on the rise.</p>
                 </div>
                 <div id="p2">
-                  <p>Try-hard copper mug ethical, leggings brunch green juice vegan distillery semiotics.</p>
+                  <p>The Avengers compared the death rate by prescription opioids to the death rate of illegal opioids.</p>
                 </div>
                 <div id="explore-button">
-                  <button class="btn btn-primary" type="button">EXPLORE</button>
+                  <a id="explore-button" class="btn btn-primary" href="#findings">EXPLORE</a>
                 </div>
             </div>
         </div>
@@ -86,12 +89,12 @@
       <div class="row">
         <div class="col-12">
         <div id="data">
-              <h2 id="data-heading"><span>Data Sources</span></h2>
+                  <h2 id="data-heading"><span>Data Sources</span></h2>
               <ul id="data-links">
                 <span>
-                <li class="data-item"><a href="#">Beard bushwick actually, authentic XOXO ennui ramps tattooed. Live-edge master cleanse cardigan, wayfarers bicycle rights selvage hot chicken literally</a></li>
-                <li class="data-item"><a href="#">Beard bushwick actually, authentic XOXO ennui ramps tattooed. Live-edge master cleanse cardigan, wayfarers bicycle rights selvage hot chicken literally</a></li>
-                <li class="data-item"><a href="#">Beard bushwick actually, authentic XOXO ennui ramps tattooed. Live-edge master cleanse cardigan, wayfarers bicycle rights selvage hot chicken literally</a></li>
+                <li class="data-item"><a href="https://wonder.cdc.gov/mcd-icd10.html">WONDER Database MCD</a></li>
+                <li class="data-item"><a href="https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html">The Centers for Disease Control Cause of Death: Drug Overdose.</a></li>
+                <li class="data-item"><a href="https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm">The Centers for Disease Control: Vital Statistics (via the WONDER Database)</a></li>
               </span>
               </ul>
               <img id="data-stock" src="../static/img/datasourcesstock.jpg">
@@ -112,7 +115,8 @@
                   <h4>Select a state from the map or choose from the menu here: </h4>
                   <form>
                     <div class="form-group">
-                      <select class="form-control" id="state-form" onchange="menuChanged(this.value)">
+                      <select class="form-control" id="state-form">
+                        <option class="option-color">...</option>
                       </select>
                     </div>
                   </form>
@@ -121,31 +125,31 @@
           </div>
       </div>
         
-    <!-- Map Container
-      <div class="row">
+    <!-- Map Container -->
+      <div class="row"></div>
             <div class="col-12">
-              <div id="map">
-                  <div class="placeholders">
-                    <p class="placeholder-text">Map Placeholder?</p>
-                  </div>
-              </div>
+              <div id="map-wrapper"></div>
             </div>
-      </div>
+      
+    <!-- end Map Container-->
    
-    -->
-
-    <div class="row">
-          <div class="col-12">
-            <div id="time-series">
-            </div>
-          </div>
-      </div>
+    
 
       <div class="row">
             <div class="col-12">
                 <div id="scatterplots"></div>
             </div>
 
+      </div>
+
+      <div class="row">
+          <div class="col-12">
+            <div id="time-series">
+                <div class="placeholders">
+                  <p class="placeholder-text">Time-Series Placeholder</p>
+                </div>
+            </div>
+          </div>
       </div>
 
              
@@ -178,5 +182,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+  
 
 </html>
