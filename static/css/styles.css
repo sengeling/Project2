@@ -4,6 +4,7 @@
 @media (max-width: 12450px) { 
 
 /*Wow all this is navigation at this screen size*/
+
     #navbar-style {
 
         margin-top: 30px;
@@ -68,6 +69,14 @@
     }
 
     /* Container Element Styles */
+
+    /* body { 
+    
+        margin:0; 
+        padding:0; 
+    
+        } */
+
     #group {
 
         position: relative;
@@ -87,7 +96,7 @@
         float: right;
         padding-left: 55px;
         padding-right: 55px;
-        padding-top: 200px;
+        padding-top: 150px;
 
     }
 
@@ -137,7 +146,7 @@
         margin-right: auto;
         font-family: "Arimo", sans-serif;
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         text-align-last: center;
         padding-left: 40px;
 
@@ -148,7 +157,7 @@
         height: 50px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .btn.btn-primary {
@@ -173,15 +182,20 @@
         height: auto;
     }
 
+
     #data-heading {
 
         position: absolute;
-        margin-top: 260px;
+        margin-top: 240px;
         margin-left: 190px;
+        padding: 20px;
         color: white;
         font-family: "Arimo", sans-serif;
         font-weight: bold;
         font-size: 38px;
+        border-style: solid;
+        border-color: #e73712;
+        border-width: 8px;
     }
 
     #data-stock {
@@ -212,7 +226,7 @@
     .data-item a {
 
         font-family: "Crimson Text", sans-serif;
-        font-size: 20px;
+        font-size: 32px;
         color: white;
 
     }
@@ -285,13 +299,15 @@
 
     }
 
-    #map {
-
-        width: auto;
+     #map-wrapper {
+ 
+        width: 100%;
         height: auto;
-        margin-bottom: 100px;
+        margin-right: auto; 
+        margin-left: auto; 
+        
 
-    }
+    } 
 
     #time-series {
 
@@ -302,6 +318,8 @@
     
     .holder {
 
+        position: relative;
+        margin-top: 350px;
         margin-left: auto;
         margin-right: auto;
         width: 500px;
@@ -310,27 +328,6 @@
 
 
     }
-
-    .placeholders {
-
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        height: 300px;
-        background-color: rgb(0, 0, 0, 0.50);
-
-
-    }
-
-    .placeholder-text {
-
-        color: black;
-        font-family: "Arimo", sans-serif;
-        font-size: 24px;
-        font-weight: bold;
-
-    }
-
 
  }
 
