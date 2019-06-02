@@ -156,8 +156,8 @@
     }
 
     const overlayMaps = {
-        'State prescribing rate': statePrescriptionRates,
-        'State death rate': stateDeathRates,
+        'Prescribing rate': statePrescriptionRates,
+        'Death rate': stateDeathRates,
         // Counties: countyBoundaries
     }
 
@@ -189,7 +189,7 @@
                 prescriptionRates[i] + (prescriptionRates[i + 1] ? '&ndash;' + prescriptionRates[i + 1] + '<br>' : '+' + '<hr>')
         }
 
-        div.innerHTML += '<p><strong>Mean death rate,<br>2006-17</strong></p>'
+        div.innerHTML += '<p><strong>Mean death rate<br>(prescription opioids),<br>2006-17</strong></p>'
 
         for (var i = 0; i < deathRates.length; i++) {
             div.innerHTML +=
