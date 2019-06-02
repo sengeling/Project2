@@ -187,7 +187,7 @@ function bestFitTrace(lr, x, xaxis, yaxis) {
 // lr: linear regression object with keys 'slope', 'intercept', and 'r2'
 function renderLRText (lr) {
 	const m = Number.parseFloat(lr['slope']).toFixed(2);
-	const b = Number.parseFloat(lr['intercept']).toFixed(2);
+	const b = Number.parseFloat(Math.abs(lr['intercept'])).toFixed(2);
 	const r2 = Number.parseFloat(lr['r2']).toFixed(3);
 	const binOp = lr['intercept'] < 0 ? '-' : '+';
 
