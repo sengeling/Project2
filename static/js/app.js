@@ -182,6 +182,22 @@ function bestFitTrace(lr, x, xaxis, yaxis) {
     };
 }
 
+
+// Function to render text of regression equation & R^2 value
+// lr: linear regression object with keys 'slope', 'intercept', and 'r2'
+function renderLRText (lr) {
+	const m = Number.parseFloat(lr['slope']).toFixed(2);
+	const b = Number.parseFloat(lr['intercept']).toFixed(2);
+	const r2 = Number.parseFloat(lr['r2']).toFixed(3);
+	const binOp = lr['intercept'] < 0 ? '-' : '+';
+
+	return `<i>y</i> = ${m}<i>x</i> ${binOp} ${b};&nbsp;&nbsp;&nbsp;&nbsp;R<sup>2</sup> = ${r2}`;
+}
+
+
+
+
+
 // Function to do update scatterplots
 // Value is the name of the state
 async function updateScatterPlots (value) {
@@ -259,7 +275,7 @@ async function updateScatterPlots (value) {
 
 	let layout = {
 		grid: {rows: 2, columns: 2, pattern: 'independent'},
-		title: "Prescription Rates (X Axis) vs. Death Rates (Y Axis)",
+		title: data[0].state + " Prescription Rates (X Axis) vs. Death Rates (Y Axis)*",
 		showlegend: false,
 		xaxis4: {
 			tick0: 10,
@@ -288,4 +304,10 @@ async function updateScatterPlots (value) {
 	};
 
 	Plotly.newPlot('scatterplots', scatterData, layout);
+
+	// Update linear regression information
+	d3.select('#heroinLR').html("<strong>Heroin: </strong>" + renderLRText(lrHeroin));
+	d3.select('#opioidLR').html("<strong>Opioids: </strong>" + renderLRText(lrOpioid));
+	d3.select('#methadoneLR').html("<strong>Methadone: </strong>" + renderLRText(lrMeth));
+	d3.select('#syntheticLR').html("<strong>Synthetic: </strong>" + renderLRText(lrSynth));
 }
