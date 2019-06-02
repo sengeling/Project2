@@ -3,12 +3,12 @@
     const API_KEY = "pk.eyJ1IjoibWRvaWciLCJhIjoiY2p2am1sdXgyMGliNzQ0cXJ5bnpnM3V4cyJ9.p9ydINGmF7CEIV4VBA9sOA"
 
     // Retrieve GeoJSON and prescription rate/death rate data
-    let stateBoundariesData = await d3.json('state_boundaries.json');
+    let stateBoundariesData = await d3.json('../static/js/state_boundaries.json');
     stateBoundariesData = stateBoundariesData.features
 
     // const countyBoundariesData = await d3.json('county_boundaries.json')
 
-    let stateRatesData = await d3.csv('../../data/states_rates.csv')
+    let stateRatesData = await d3.csv('../data/states_rates.csv')
 
     // Transform prescription rate/death rate data into an object
     const stateRateReduce = stateRatesData.reduce((prevData, currentData) => {
@@ -186,7 +186,7 @@
         for (var i = 0; i < prescriptionRates.length; i++) {
             div.innerHTML +=
                 '<i style="background:' + prescriptionGetColor(prescriptionRates[i] + 1) + '"></i> ' +
-                prescriptionRates[i] + (prescriptionRates[i + 1] ? '&ndash;' + prescriptionRates[i + 1] + '<br>' : '+')
+                prescriptionRates[i] + (prescriptionRates[i + 1] ? '&ndash;' + prescriptionRates[i + 1] + '<br>' : '+' + '<hr>')
         }
 
         div.innerHTML += '<p><strong>Mean death rate,<br>2006-17</strong></p>'
