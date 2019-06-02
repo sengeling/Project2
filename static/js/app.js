@@ -116,6 +116,7 @@ async function updateTimePlot (value) {
 	const plotData = [heroinTrace, methadoneTrace, opioidsTrace, syntheticTrace, prescribingTrace];
 
 	const layout = {
+		title: data[0].state + " Opioid Statistics",
 		yaxis: {
 			title: "Deaths per 100,000 People"
 		},
