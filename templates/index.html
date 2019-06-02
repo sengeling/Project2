@@ -77,10 +77,10 @@
             <div id="front-right">
                 <div class="title-borders"><h1 id="case-study">Case Study</h1></div>
                 <div id="p1">
-                    <p>In 2017, the US Department of Health and Human Services declared the prescription of opioids to be a public health emergency. In addition to the rate of prescription of medical opioids, the use of heroin is also on the rise.</p>
+                    <p>In 2017, the US Department of Health and Human Services declared the abuse of prescription opioids to be a public health emergency. In addition to prescription opioids, the use of heroin and of synthetic opioids is also on the rise.</p>
                 </div>
                 <div id="p2">
-                    <p>The Avengers compared the death rate by prescription opioids to the death rate of illegal opioids.</p>
+                    <p>Our team compared the prescribing rates of opioids to the rates of death by various opioids.</p>
                 </div>
                 <div id="explore-button">
                     <a id="explore-button" class="btn btn-primary" href="#findings">EXPLORE</a>
@@ -115,7 +115,7 @@
             </div>
 
             <div id="select-col">
-                  <h4>Select a state from the map or choose from the menu here: </h4>
+                  <h4>Choose a state from the menu: </h4>
                   <form>
                     <div class="form-group">
                       <select class="form-control" id="state-form" onchange="menuChanged(this.value)">
@@ -143,14 +143,23 @@
             </div>
           </div>
       </div>
-   
-    -->
 
       <div class="row">
             <div class="col-12">
                 <div id="scatterplots"></div>
             </div>
+      </div>
 
+      <div class="row">
+        <div class="col-12">
+          <h6>*Linear regression statistics:</h6>
+          <ul>
+            <li id="heroinLR"></li>
+            <li id="opioidLR"></li>
+            <li id="methadoneLR"></li>
+            <li id="syntheticLR"></li>
+          </ul>
+        </div>
       </div>
 
 
