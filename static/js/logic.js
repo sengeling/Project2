@@ -8,7 +8,7 @@
 
     // const countyBoundariesData = await d3.json('county_boundaries.json')
 
-    let stateRatesData = await d3.csv('../data/states_rates.csv')
+    let stateRatesData = await d3.csv('../static/js/states_rates.csv')
 
     // Transform prescription rate/death rate data into an object
     const stateRateReduce = stateRatesData.reduce((prevData, currentData) => {
