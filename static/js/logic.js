@@ -129,7 +129,7 @@
         style: deathStyle
     })
 
-    // Define map layers
+    // Define map layer
     const lightMap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
         attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
         maxZoom: 18,
@@ -137,23 +137,14 @@
         accessToken: API_KEY
     })
 
-    const streetsMap = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
-        attribution: "Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>",
-        maxZoom: 18,
-        id: "mapbox.streets",
-        accessToken: API_KEY
-    })
-
     // Define baseMaps and overlayMaps objects to hold base and overlay layers
     const baseMaps = {
-        'Base map' : lightMap,
-        // 'Alternative base' : streetsMap
+        'Base map' : lightMap
     }
 
     const overlayMaps = {
         'Prescribing rate': statePrescriptionRates,
-        'Death rate': stateDeathRates,
-        // Counties: countyBoundaries
+        'Death rate': stateDeathRates
     }
 
     // Create map, specifying layers that will display on page load
