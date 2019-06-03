@@ -347,6 +347,14 @@
     
      }
     
+    @media (max-width: 768px) {
+
+        .legend {
+            display: none;
+        }
+
+    }
+
      @media (max-width: 414px) {
     
     /* And this is just navigation at the small size */
@@ -422,10 +430,6 @@
                 
         }
 
-        .legend {
-            display: none;
-        }
-            
         /* Container Styles */
     
         
