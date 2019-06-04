@@ -117,6 +117,7 @@ async function updateTimePlot (value) {
 
 	const layout = {
 		title: data[0].state + " Opioid Statistics",
+		height: 600,
 		yaxis: {
 			title: "Deaths per 100,000 People"
 		},
@@ -277,28 +278,25 @@ async function updateScatterPlots (value) {
 		grid: {rows: 2, columns: 2, pattern: 'independent'},
 		title: data[0].state + " Prescription Rates (X Axis) vs. Death Rates (Y Axis)*",
 		showlegend: false,
+		height: 800,
 		xaxis4: {
 			tick0: 10,
 			dtick: 20
 		},
 		yaxis: {
-			dtick: 1,
 			title: 'Heroin'
 		},
 		yaxis2: {
-			dtick: 1,
 			title: 'Opioids'
 		},
 		yaxis3: {
 			rangemode: 'tozero',
 			tick0: 0,
-			dtick: 0.5,
 			title: 'Methadone'
 		},
 		yaxis4: {
 			rangemode: 'tozero',
 			tick0: 0,
-			dtick: 0.5,
 			title: 'Synthetic'
 		}
 	};
