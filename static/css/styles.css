@@ -70,12 +70,17 @@
     
         /* Container Element Styles */
     
-        /* body { 
-        
-            margin:0; 
-            padding:0; 
-        
-            } */
+        #error-image {
+
+            width: 500px;
+            height: 687px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            display: block;
+            
+
+        }
     
         #group {
     
