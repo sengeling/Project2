@@ -1,0 +1,124 @@
+<!doctype html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drug Death Rates</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+
+    <!-- Icons -->
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- <link rel="stylesheet" href="css/leaflet.extra-markers.min.css"> -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arimo|Barlow+Condensed|Crimson+Text&display=swap" rel="stylesheet">
+
+    <!-- The favicons because we have them now-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/img/favicon-16x16.png">
+    <link rel="manifest" href="../static/img/site.webmanifest">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""/>
+
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/css/styles2.css">
+
+
+</head>
+
+<header>
+  <!-- Navigation -->
+
+  <nav id="navbar-style" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div id="brand-border">
+      <a id="brand-logo" class="navbar-brand" href="/">A</a>
+    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#data">Data</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#findings">Findings</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <!-- end Navigation -->
+</header>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container-fluid">
+<div id="findings">
+        <div class="row">
+        <div id="findings-left" class="col">
+          <div class="subheading-borders">
+              <h2 id="findings-heading">Findings</h2>
+          </div>
+        </div>
+        <div id="select-col" class="col">
+              <h4>Choose a state from the menu: </h4>
+              <form>
+                <div class="form-group">
+                  <select class="form-control" id="state-form" onchange="menuChanged(this.value)">
+                  </select>
+                </div>
+              </form>
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="col-12">
+        <div id="time-series">
+        </div>
+      </div>
+  </div>
+
+  <div class="row">
+        <div class="col-12">
+            <div id="scatterplots"></div>
+        </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <h6>*Linear regression statistics:</h6>
+      <ul>
+        <li id="heroinLR"></li>
+        <li id="opioidLR"></li>
+        <li id="methadoneLR"></li>
+        <li id="syntheticLR"></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Map Container -->
+    <div class="row">
+      <div class="col-12">
+        <div id="map">
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
