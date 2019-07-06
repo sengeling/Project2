@@ -72,7 +72,7 @@
     // Event listener changes fill color of state
     function highlightFeature(e) {
         let layer = e.target
-    
+
         layer.setStyle({
             fillColor: '#18C8ED',
             fillOpacity: 1
@@ -117,7 +117,7 @@
             <strong>Mean death rate:</strong> ${feature.properties.mean_opioids_death_rate}</p>`
             )
     }
-    
+
     // Create GeoJSON layers for prescription rates and death rates
     statePrescriptionRates = L.geoJSON(states, {
         onEachFeature: prescriptionOnEachFeature,
@@ -151,6 +151,7 @@
     const map = L.map("map", {
         center: [37.09, -95.71],
         zoom: 3.5,
+        scrollWheelZoom:false,
         layers: [lightMap, statePrescriptionRates]
     })
 
