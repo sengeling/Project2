@@ -27,7 +27,7 @@ Yearly trends in opioid overdose rates, by opioid type.
 We will use a dashboard design for our datasets which will include at least 2 interactive graphs and at least one U.S. map that will allow the user to drill down into the data and highlight the rate of death by prescription drug overdose versus the the rate of death by illegal or illicit substance.
 
 
-### Web App Deployed Here:
+### Link to the Heroku App:
 <https://statewideopioidanalysis.herokuapp.com/>
 
 
