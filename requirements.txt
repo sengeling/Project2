@@ -24,7 +24,7 @@ jupyter==1.0.0
 jupyter_client==5.2.4
 jupyter_console==6.0.0
 jupyter_core==4.4.0
-jupyterlab==0.35.3
+jupyterlab==1.2.21
 jupyterlab_server==0.2.0
 lxml  
 mysqlclient
